@@ -1620,8 +1620,9 @@ section {
 
 .contact .php-email-form {
   background: #fafbff;
-  padding: 30px;
+  padding: 50%;
   height: 100%;
+
 }
 
 .contact .php-email-form .error-message {
@@ -2394,4 +2395,18 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
 }
